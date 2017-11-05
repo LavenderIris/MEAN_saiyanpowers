@@ -1,0 +1,7 @@
+<h4>Human Component</h4>
+  
+<p>Power Level: {{humanpower}}</p>
+
+<h4 *ngIf="humanpower > 9000 && humanpower <= 20000">Over 9000!</h4>
+<h4 *ngIf="humanpower > 20000 && humanpower < 50000">Superlative!</h4>
+<h4 *ngIf="humanpower > 50000">The One.</h4>

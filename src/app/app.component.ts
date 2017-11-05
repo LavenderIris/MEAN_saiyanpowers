@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  powerlevel: Number = 0;
+
+  setPower() {
+    this.powerlevel = this.powerlevel;
+    console.log(this.powerlevel);
+  }
 }
